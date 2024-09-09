@@ -1,0 +1,11 @@
+.image-reveal {
+  overflow: hidden;
+  height: 0;
+  animation: revealImage 2s forwards;
+}
+
+@keyframes revealImage {
+  to {
+    height: auto;
+  }
+}

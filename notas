@@ -1,0 +1,7 @@
+Poderia fazer aparecer algumas linhas do terminal, e renderizar o projeto correspondente.
+
+Poderia ser um componente para cada projeto, e ir dividindo em componentes menores caso necessário.
+
+Usando o projeto do linkedin como base, eu poderia usar props para gerar algumas coisas mais específicas nos componentes, ou seja,
+chamar o componente terminal com as frases certas para cada momento. Se é 2019 que vou mostrar, ele apenas renderiza as linhas referentes à 2019,
+e então os projetos de 2019. - FEITO

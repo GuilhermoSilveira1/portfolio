@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Typewriter } from 'react-simple-typewriter';
+import './Terminal.css'
+
 
 const Terminal = ({ lines, letterSpeed }) => { //Aqui é colocado um parâmetro de entrada, uma variável chamada Lines, que irá ser o texto escrito
     const [currentLine, setCurrentLine] = useState(0);
@@ -23,7 +25,7 @@ const Terminal = ({ lines, letterSpeed }) => { //Aqui é colocado um parâmetro 
                         loop={1}
                         cursor
                         cursorStyle="_"
-                        typeSpeed={letterSpeed && 70}
+                        typeSpeed={letterSpeed || 70}
                         //Se não estou maluco, essa mudança me permite controlar a velocidade de escrita, ao mesmo tempo que pode ser padrão caso não seja necessária uma velocidade específica
                         deleteSpeed={50}
                     />

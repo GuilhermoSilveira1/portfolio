@@ -1,0 +1,25 @@
+/* index.css ou App.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000; /* Fundo preto em toda a página */
+  color: #00ff00; /* Cor do texto verde para o estilo terminal */
+  font-family: "Courier New", Courier, monospace; /* Fonte de terminal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

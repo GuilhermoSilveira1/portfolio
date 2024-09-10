@@ -1,0 +1,22 @@
+/* OBR.css */
+
+.obr-intro {
+  margin-bottom: 20px;
+}
+
+.obr-title h1 {
+  font-size: 40px; /* Tamanho do título */
+  color: #00ff00; /* Cor verde para o título, como no terminal */
+  font-family: "Courier New", Courier, monospace; /* Fonte de terminal */
+}
+
+.obr-text {
+  margin-top: 20px;
+}
+
+.image-container img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #33ff33; /* Borda verde para combinar com o estilo terminal */
+}

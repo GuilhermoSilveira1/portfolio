@@ -1,12 +1,13 @@
 import React from "react";
 import Terminal from "../../Terminal";
-import { Typewriter } from 'react-simple-typewriter';
+import './OBR.css'
 
 const OBR = () => {
     const lineOBR = [
-        'Voltando para 2019',
+        'Voltando para 2019...',
         'Projeto 1: Olimpíada Brasileira de Robótica',
     ]
+
 
     const text1 = [
         'Em 2019, engressei no clube de robótica, por onde participei da competição.Junto com um amigo, conseguimos o segundo lugar na etapa regional, disputada no Sesi CiC.'
@@ -25,9 +26,6 @@ const OBR = () => {
         <>
             <div className="obr-intro">
                 <Terminal lines={lineOBR} />
-            </div>
-            <div className="obr-title">
-                <Terminal lines={"Olimpíada Brasileira de Robótica"} letterSpeed={60} />
             </div>
 
             <div className="obr-text">

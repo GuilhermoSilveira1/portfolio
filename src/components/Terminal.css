@@ -1,0 +1,22 @@
+/* Terminal.css */
+
+body,
+html {
+  background-color: #000; /* Fundo preto em toda a página */
+  color: #00ff00; /* Cor do texto verde para o estilo terminal */
+  font-family: "Courier New", Courier, monospace; /* Fonte de terminal */
+}
+
+.terminal {
+  background-color: #000; /* Fundo preto para o estilo de terminal */
+  color: #00ff00; /* Cor do texto verde para parecer com um terminal retro */
+  font-family: "Courier New", Courier, monospace; /* Fonte de terminal */
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  white-space: pre-wrap; /* Mantém os espaços e quebras de linha */
+}
+
+.terminal .Typewriter__cursor {
+  font-size: 1.2em; /* Tamanho do cursor */
+}

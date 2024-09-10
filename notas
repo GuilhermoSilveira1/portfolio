@@ -5,3 +5,27 @@ Poderia ser um componente para cada projeto, e ir dividindo em componentes menor
 Usando o projeto do linkedin como base, eu poderia usar props para gerar algumas coisas mais específicas nos componentes, ou seja,
 chamar o componente terminal com as frases certas para cada momento. Se é 2019 que vou mostrar, ele apenas renderiza as linhas referentes à 2019,
 e então os projetos de 2019. - FEITO
+
+
+    'Inicializando o portfólio de Guilhermo...',
+    'Carregando projetos...',
+
+
+    'Avançando para 2019',
+    'Projeto 1: Olimpíada Brasileira de Robótica',
+    'Projeto 2: Grand Prix de Inovação Senai',
+
+    'Avançando o tempo para 2022',
+    'Jornada de Aprendizagem 1: Mesa Giratória',
+    'Jornada de Aprendizagem 2: Automatização Máquina de Suco',
+
+
+    'Avançando para 2023',
+    'Jornada de Aprendizagem 3: Braço Colaborativo',
+    'Jornada de Aprendizagem 4: Mesa Giratória',
+
+
+    'Avançando para 2024',
+    'Jornada de Aprendizagem 5: Protótipo Site de Recrutamento e Seleção',
+    'Projeto 1: Change Audiobook',
+    'Projeto 2: Training page using CSS',

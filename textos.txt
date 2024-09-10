@@ -1,0 +1,57 @@
+Grand Prix de Inovação Senai
+
+Também em 2019, participei do Grand Prix de Inovação, promovido pelo Senai em parceria com a Bosch.
+Foi o meu primeiro contato com os desafios que uma empresa multinacional enfrenta, assim como sua preocupação com o cliente e a experiência que o cliente tem com a marca.
+Nesse Grand Prix, eu e minha equipe ganhamos o terceiro lugar com nossa solução.
+Foi uma ótima experiência, que ampliou muito meus horizontes, especialmente com a visita à unidade da Bosch em Curitiba.
+
+
+Jornada de Aprendizagem
+Na UniSenaiPR todo semestre temos uma matéria para desenvolver projetos. A faculdade entra em contato com uma empresa com um problema, e cabe aos alunos desenvolverem a solução. 
+O andamento durante o semestre se dá com base em algumas fases, como a explicação do problema por parte da empresa, a pesquisa para descobrir se existem soluções parecidas para o problema, a elaboração de uma solução, e a apresentação para a empresa.
+A partir do segundo semestre de 2023 também começaram a dar um foco maior na elaboração de artigos que explicam a solução, para publicação na revista da UniSenai, além da premiação da Jornada, que teve sua primeira edição neste ano. Os vencedores do primeiro lugar chegaram até a darem entrevista para redes de televisão.
+
+Jornada de aprendizagem 1 - Mesa Rotativa
+No meu primeiro ano na faculdade, em 2022, cursando Engenharia Mecatrônica, o primeiro desafio que resolvi com minha equipe foi uma mesa rotativa para solda. A empresa que tinha essa dor nos contou que o operador tinha que soldar a peça em questão com uma mão, enquanto girava a sua bancada de trabalho com a outra, o que poderia gerar inúmeros problemas de qualidade.
+Assim, nossa ideia final foi uma mesa rotativa que girava por meio de um pedal, além de oferecer ao operador algumas opções, como velocidade da rotação, regulagem da altura da mesa, parada de emergência, entre outras.
+
+Jornada de aprendizagem 2 - Automatização de Máquina de Suco
+No segundo semestre de 2022, o desafio foi automatizar uma máquina de suco.
+A solução em si não foi muito difícil de fazer funcionar, utilizando um microcontrolador, uma válvula solenoide e algumas chapas de alumínio já conseguimos atender os requisitos do projeto. Porém, foi a primeira vez que precisamos documentar o projeto. Então isso significou colocar os valores, os esquemas elétricos, os desenhos da solução, como realizar a manutenção, entre outros.
+
+Jornada de aprendizagem 3 - Braço Colaborativo
+No segundo ano, o primeiro desafio foi ajudar com o abastecimento de uma linha de usinagem.
+Nesse projeto, fomos introduzidos à alguns novos conceitos de projetos. 
+A primeira ideia nova, foi a de fazer diferentes níveis em que a nossa aplicação pudesse ser adquirida pela empresa, e fazer de um modo em que a mesma pudesse entrar no nível mais básico, e ir melhorando a operação conforme a necessidade, investimento, etc.
+O problema era o abastecimento de virabrequins em uma linha de usinagem. Esse problema englobava alguns outros, como o abastecimento por empilhadeira do posto de trabalho, a eventual falta no posto para o operador abastecer a linha, a ocorrência de Lesão por Esforço Repetitivo (LER), entre outros.
+A solução, que deveria conter um braço colaborativo, ficou muito bacana, com 3 níveis distintos que a empresa poderia escolher para implementar, variando de apenas implementar um braço, até um abastecimento automatizado das caixas com virabrequins.
+
+Jornada de aprendizagem 4 - Prensa Automatizada
+A segunda jornada de 2023 foi realizar a automação e adequação de uma prensa.
+Dessa vez em parceria com a antiga Aker, atualmente OneSubsea, fomos na planta para entendermos uma dor que eles tinham.
+A dinâmica da empresa é bastante diferente de montadoras convencionais, em que certas montagens são realizadas dezenas de vezes. Lá, os seus produtos são feitos de forma personalizada para cada cliente, de acordo com como serão exploradas as reservas de petróleo abaixo do mar.
+Então o maior desafio não era adequar para a operação, mas realizar a automação do processo, para que o que o operador pudesse ter maior controle do processo, ao mesmo tempo que poderia gerar dados para a empresa, e o principal, adequar às Normas Regulamentadoras (NRs).
+Como era um problema claro, a solução desenvolvida pela minha equipe foi bastante robusta, e conseguimos aplicar uma grande quantidade de tecnologias para conter qualquer eventual problema.
+E o maior aprendizado nessa jornada, foi a presença de bancas avaliadoras ao longo da produção da solução, o que resultou em soluções muito acima do esperado pela equipe, um resultado que realmente poderia ser implementado na indústria.
+
+Jornada de aprendizagem 5 - Concepção de um Site de Recrutamento e Seleção
+No primeiro semestre de 2024, e meu primeiro em Engenharia de Software, o desafio era fazer as telas de um site de recrutamento e solução para a empresa Code Sails.
+Alguns pontos que apareceram para mim foram o primeiro contato com o figma para planejar as telas, e posteriormente o uso do canva. A contextualização do problema, quais conceitos seriam usados para produzir a solução esperada, como Experiência e Interface do usuário (UI e UX), a documentação do processo todo em um artigo que poderia ser publicado na revista da UniSenai. A mudança no modo de pensar as soluções também foi algo que senti diferença de como era na Mecatrônica.
+
+Projeto 1 - Sistema de Supervisão de Supermercado
+Como último desafio na matéria de Programação Orientado à Objetos, a ideia foi criar um sistema em Java, com uma Interface na Linha de Comando (Command Line Interface, CLI), que permitisse ao usuário realizar algumas operações, além de salvar os dados no final do programa. 
+Pode conferir em mais detalhes no meu <a href="link pro GitHub">GitHub<a/>
+
+Projeto 2 - Portifólio
+Sim, esse portifólio é o meu projeto mais recente! 
+Já que estou "molhando os pés" em React, e ainda não havia feito meu portifólio, foi uma ótima oportunidade de criá-lo e utilizar mais React.
+Aprendi muito sobre o funcionamento da ferramenta, e ainda aproveitei colocar muitas experiências relevantes que tive nos últimos anos.
+E novamente, o código fonte está disponível no meu <a href="Link pro GitHub">GitHub<a/>
+
+
+Conclusão
+Não coloquei muitos projetos que desenvolvi ao longo desse ano, falando de software especificamente, pois vejo que esses dois acima são bons exemplos do meu  nível atual no desenvolvimento e conhecimento de conceitos.
+Tenho muitos outros projetos em meu GitHub, alguns em andamento e muitos outros planejados. Conforme for finalizando os projetos, irei atualizar este portifólio com as mais novas ideias que foram postas em prática, assim como as novas ferramentas que aprendi.
+
+Contatos:
+LinkedIn	GitHub		Telefone	email

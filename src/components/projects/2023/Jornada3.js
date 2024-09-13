@@ -6,80 +6,36 @@ const Jornada3 = () => {
 
     const title = ["Braço Colaborativo"];
 
-
-
     const text1 = [
-
-        "No segundo ano, o primeiro desafio foi ajudar com o abastecimento de uma linha de usinagem.",
-
+        'No primeiro semestre do segundo ano, enfrentamos um novo desafio proposto pelo professor: desenvolver uma solução para uma linha de abastecimento de virabrequins, essencial para um processo de usinagem que não pode ser interrompido. Os problemas identificados incluíam a falta de abastecimento, Lesão por Esforço Repetitivo (LER) do operador responsável por retirar os virabrequins das caixas e o risco de abastecimento incorreto.'
     ];
-
-
 
     const text2 = [
-
-        "Nesse projeto, fomos introduzidos à alguns novos conceitos de projetos.",
-
+        'Para abordar esses problemas, fomos introduzidos a um conceito inovador na criação e venda de soluções. O professor propôs a implementação de diferentes níveis de aplicação, permitindo que a empresa adotasse a solução de forma modular. O objetivo era desenvolver uma solução escalável, começando com um nível básico e permitindo melhorias progressivas com base nas necessidades e no investimento da empresa.'
     ];
-
-
 
     const text3 = [
-
-        "A primeira ideia nova, foi a de fazer diferentes níveis em que a nossa aplicação pudesse ser adquirida pela empresa, e fazer de um modo em que a mesma pudesse entrar no nível mais básico, e ir melhorando a operação conforme a necessidade, investimento, etc.",
-
+        'Desenvolvemos três níveis distintos de implementação: básico, intermediário e avançado. O nível básico incluía a integração de um braço colaborativo, enquanto os níveis mais avançados incorporavam funcionalidades adicionais, como o abastecimento automatizado das caixas com virabrequins. A solução foi projetada para melhorar continuamente a operação, tornando-a mais eficiente e menos suscetível a falhas.'
     ];
-
-
 
     const text4 = [
-
-        "O problema era o abastecimento de virabrequins em uma linha de usinagem. Esse problema englobava alguns outros, como o abastecimento por empilhadeira do posto de trabalho, a eventual falta no posto para o operador abastecer a linha, a ocorrência de Lesão por Esforço Repetitivo (LER), entre outros.",
-
+        'Esse projeto não apenas nos desafiou a criar uma solução técnica eficiente, mas também a pensar estrategicamente sobre a escalabilidade e a modularidade em projetos industriais.'
     ];
-
-
-
-    const text5 = [
-
-        "A solução, que deveria conter um braço colaborativo, ficou muito bacana, com 3 níveis distintos que a empresa poderia escolher para implementar, variando de apenas implementar um braço, até um abastecimento automatizado das caixas com virabrequins.",
-
-    ];
-
-
 
     return (
-
         <>
-
             <div className="ja3-title">
-
                 <Terminal lines={title} />
-
             </div>
-
-
 
             <div className="ja3-text">
-
                 <Terminal lines={text1} />
-
                 <Terminal lines={text2} />
-
                 <Terminal lines={text3} />
-
                 <Terminal lines={text4} />
-
-                <Terminal lines={text5} />
-
             </div>
-
         </>
-
     );
-
 };
-
-
 
 export default Jornada3;

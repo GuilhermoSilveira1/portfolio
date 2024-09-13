@@ -3,19 +3,19 @@ import Terminal from "../Terminal"
 
 const Ja = () => {
     const title = [
-        "Jornada de Aprendizagem"
+        "Jornadas de Aprendizagem na UniSenaiPR: Preparando para o Mercado de Trabalho"
     ]
 
     const text1 = [
-        "Na UniSenaiPR todo semestre temos uma matéria para desenvolver projetos. A faculdade entra em contato com uma empresa com um problema, e cabe aos alunos desenvolverem a solução."
+        'Na faculdade UniSenaiPR, o foco é preparar os profissionais da melhor forma possível para o mercado de trabalho, especialmente no setor industrial. Uma das matérias essenciais desse processo é a Jornada de Aprendizagem, onde todos os estudantes, independentemente da localidade, participam de um ciclo prático de desenvolvimento de projetos.'
     ]
 
     const text2 = [
-        "O andamento durante o semestre se dá com base em algumas fases, como a explicação do problema por parte da empresa, a pesquisa para descobrir se existem soluções parecidas para o problema, a elaboração de uma solução, e a apresentação para a empresa."
+        'Essa disciplina é única, pois conecta os alunos com problemas reais trazidos por empresas parceiras. O objetivo é que os estudantes vivenciem na prática o processo completo de criação de soluções, desenvolvendo habilidades fundamentais para o mercado, como gerenciamento de tempo, trabalho em equipe e apresentação de projetos. Além disso, os alunos passam por bancas avaliadoras que ajustam o rumo das soluções, pesquisam componentes, geram orçamentos e aprendem a lidar com todas as etapas envolvidas na entrega de um projeto.'
     ]
 
     const text3 = [
-        "A partir do segundo semestre de 2023 também começaram a dar um foco maior na elaboração de artigos que explicam a solução, para publicação na revista da UniSenai, além da premiação da Jornada, que teve sua primeira edição neste ano. Os vencedores do primeiro lugar chegaram até a darem entrevista para redes de televisão."
+        'Essa abordagem imersiva garante que, ao final, os alunos estejam mais preparados para enfrentar os desafios da indústria com confiança e competência.'
     ]
 
     return (

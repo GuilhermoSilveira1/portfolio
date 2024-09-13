@@ -5,21 +5,17 @@ import './OBR.css'
 const OBR = () => {
     const lineOBR = [
         'Voltando para 2019...',
-        'Projeto 1: Olimpíada Brasileira de Robótica',
+        'Olimpíada Brasileira de Robótica',
     ]
 
 
     const text1 = [
-        'Em 2019, engressei no clube de robótica, por onde participei da competição.Junto com um amigo, conseguimos o segundo lugar na etapa regional, disputada no Sesi CiC.'
+        'Em 2019, entrei para o clube de robótica do Colégio Sesi Internacional e tive a oportunidade de participar da Olimpíada Brasileira de Robótica (OBR). Junto com um colega, conquistamos o segundo lugar na etapa regional, realizada no Sesi CiC. Avançamos para a etapa estadual, onde conquistamos o sétimo lugar.'
     ]
 
     const text2 = [
-        'Passamos para a etapa do estadual, mas acabamos parando no sétimo lugar, sem nos classificarmos para a etapa nacional.'
-    ]
+        'Essa experiência foi transformadora e despertou meu interesse pela Mecatrônica. Logo após, decidi me inscrever no curso técnico em Mecatrônica, na unidade do Senai Celso Charuri, que concluí em 2021. O aprofundamento na área me levou a dar o próximo passo, ingressando na Engenharia Mecatrônica em fevereiro de 2022.']
 
-    const text3 = [
-        'Por conta dessa experiência, eu comecei a fazer o curso de técnico em Mecatrônica, completando em 2021.E por ter me aprofundado em Mecatrônica, entrei para a Engenharia Mecatrônica em feveiro de 2022.'
-    ]
 
 
     return (
@@ -31,7 +27,6 @@ const OBR = () => {
             <div className="obr-text">
                 <Terminal lines={text1} letterSpeed={50} />
                 <Terminal lines={text2} letterSpeed={50} />
-                <Terminal lines={text3} letterSpeed={50} />
             </div>
 
             <div className="image-container">

@@ -35,3 +35,14 @@ input:focus {
 input ::placeholder {
   color: #00ff00;
 }
+
+.menu-title,
+.menu-text {
+  font-family: "Courier New", Courier, monospace; /* Fonte monoespaçada */
+  white-space: pre-wrap; /* Preserve os espaços e quebras de linha */
+  font-size: 14px; /* Tamanho de fonte ajustável para melhor visualização */
+  line-height: 1.2; /* Espaçamento entre as linhas */
+  color: #00ff00; /* Cor de texto que lembra terminais antigos */
+  background-color: #000000; /* Fundo preto para simular um terminal */
+  padding: 20px;
+}

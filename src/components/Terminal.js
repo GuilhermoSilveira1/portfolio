@@ -10,7 +10,7 @@ const Terminal = ({ lines, letterSpeed }) => { //Aqui é colocado um parâmetro 
         if (currentLine < lines.length) {
             const timer = setTimeout(() => {
                 setCurrentLine(currentLine + 1);
-            }, 3000); // Ajuste o tempo entre as frases conforme necessário
+            }, 0); // Ajuste o tempo entre as frases conforme necessário
             return () => clearTimeout(timer);
         }
     }, [currentLine, lines.length]);
@@ -29,7 +29,6 @@ const Terminal = ({ lines, letterSpeed }) => { //Aqui é colocado um parâmetro 
                         //Se não estou maluco, essa mudança me permite controlar a velocidade de escrita, ao mesmo tempo que pode ser padrão caso não seja necessária uma velocidade específica
                         deleteSpeed={50}
                     />
-                    {line.includes('<br />') && <br />} {/* Adiciona um <br /> se a linha incluir <br /> */}
                 </div>
             ))}
         </div>

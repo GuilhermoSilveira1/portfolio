@@ -1,5 +1,6 @@
 import React from "react";
 import Terminal from "../../Terminal";
+import img1 from "./../../../img/Projeto_1.png"
 
 
 const Projeto1 = () => {
@@ -23,6 +24,10 @@ const Projeto1 = () => {
             <div>
                 <Terminal lines={text1} />
                 <Terminal lines={text2} />
+            </div>
+
+            <div>
+                <img alt="Imagem do projeto em funcionamento" src={img1} />
             </div>
         </>
     );

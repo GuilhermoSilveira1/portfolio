@@ -1,5 +1,7 @@
 import React from "react";
 import Terminal from "../../Terminal";
+import img1 from "./../../../img/JA_4.png"
+import img2 from "./../../../img/JA_4-2.png"
 
 
 const Jornada4 = () => {
@@ -33,6 +35,11 @@ const Jornada4 = () => {
                 <Terminal lines={text2} />
                 <Terminal lines={text3} />
                 <Terminal lines={text4} />
+            </div>
+
+            <div>
+                <img alt="Imagem do projeto 3D" src={img1} />
+                <img alt="Imagem do projeto 3D" src={img2} />
             </div>
         </>
     );

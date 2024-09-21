@@ -1,10 +1,16 @@
 import React from "react";
 import Terminal from "../../Terminal";
 import './OBR.css'
+import img1 from "./../../../img/medalhaOBR.jpg"
+import img2 from "./../../../img/OBR.jpg"
 
 const OBR = () => {
-    const lineOBR = [
+
+    const title = [
         'Voltando para 2019...',
+    ]
+
+    const lineOBR = [
         'Olimpíada Brasileira de Robótica',
     ]
 
@@ -21,6 +27,7 @@ const OBR = () => {
     return (
         <>
             <div className="obr-intro">
+                <Terminal lines={title} />
                 <Terminal lines={lineOBR} />
             </div>
 
@@ -30,8 +37,8 @@ const OBR = () => {
             </div>
 
             <div className="image-container">
-                <img alt="Foto da medalha da etapa regional da OBR" src="/img/medalhaOBR.jpg" />
-                <img alt="Foto na OBR estadual" src="/img/OBR.jpg" />
+                <img src={img1} />
+                <img alt="Foto na OBR estadual" src={img2} />
             </div>
         </>
     )

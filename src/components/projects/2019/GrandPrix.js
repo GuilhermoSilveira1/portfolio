@@ -1,5 +1,9 @@
 import React from "react"
 import Terminal from "../../Terminal"
+import img1 from "./../../../img/Hackaton.jpg"
+import img2 from "./../../../img/Hackaton_1.jpg"
+import img3 from "./../../../img/Hackaton_2.jpg"
+
 
 
 const GrandPrix = () => {
@@ -34,6 +38,12 @@ const GrandPrix = () => {
                 <Terminal lines={text2} letterSpeed={50} />
                 <Terminal lines={text3} letterSpeed={50} />
                 <Terminal lines={text4} letterSpeed={50} />
+            </div>
+
+            <div className="grand-image">
+                <img alt="Hackaton do Senai" src={img1} />
+                <img alt="Hackaton do Senai" src={img2} />
+                <img alt="Hackaton do Senai" src={img3} />
             </div>
 
         </>

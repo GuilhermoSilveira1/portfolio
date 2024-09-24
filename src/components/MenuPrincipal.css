@@ -9,6 +9,7 @@
 .sub-menu {
   display: flex; /* Alinha os filhos em uma linha (horizontal) */
   align-items: center; /* Centraliza verticalmente a imagem e o texto */
+  font-size: 20px;
 }
 
 .sub-menu img {

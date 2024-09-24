@@ -1,15 +1,35 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fd92808f.css",
-    "main.js": "/portfolio/static/js/main.e1ad27da.js",
+    "main.css": "/portfolio/static/css/main.9ef9e3c8.css",
+    "main.js": "/portfolio/static/js/main.9fe09317.js",
     "static/js/453.9c226ca7.chunk.js": "/portfolio/static/js/453.9c226ca7.chunk.js",
+    "static/media/Jornada_5-3.png": "/portfolio/static/media/Jornada_5-3.159c0cfdd815730efd16.png",
+    "static/media/JA_1-2.png": "/portfolio/static/media/JA_1-2.b338b2d1853ceccc1988.png",
+    "static/media/JA_3-3.png": "/portfolio/static/media/JA_3-3.519ebfdd691a70e09007.png",
+    "static/media/JA_1.png": "/portfolio/static/media/JA_1.bbaa761498d90f2a39c1.png",
+    "static/media/Hackaton.jpg": "/portfolio/static/media/Hackaton.3ba31c62246bd4ef4279.jpg",
+    "static/media/Hackaton_1.jpg": "/portfolio/static/media/Hackaton_1.bd37b832f471978b0c61.jpg",
+    "static/media/Jornada_5-1.jpg": "/portfolio/static/media/Jornada_5-1.f343ee01a85a474b5198.jpg",
+    "static/media/Jornada_5.jpg": "/portfolio/static/media/Jornada_5.486ca3a13fe7b6c2bcdf.jpg",
+    "static/media/JA_4.png": "/portfolio/static/media/JA_4.d2f94eea6d0123784fff.png",
+    "static/media/JA_2.png": "/portfolio/static/media/JA_2.4a833581e8f324524061.png",
+    "static/media/OBR.jpg": "/portfolio/static/media/OBR.8418c9e7e4a74d1ae953.jpg",
+    "static/media/JA_3-2.png": "/portfolio/static/media/JA_3-2.7d78ec063566748ecf57.png",
+    "static/media/JA_4-2.png": "/portfolio/static/media/JA_4-2.dcf83fd670f98ab49a57.png",
+    "static/media/Foto Guilhermo.jpg": "/portfolio/static/media/Foto Guilhermo.8c3708ff260c2c4f9dd0.jpg",
+    "static/media/medalhaOBR.jpg": "/portfolio/static/media/medalhaOBR.89bd4e59d5e1ab344220.jpg",
+    "static/media/Hackaton_2.jpg": "/portfolio/static/media/Hackaton_2.8d678a9ec32fcfd9d70e.jpg",
+    "static/media/JA_3.png": "/portfolio/static/media/JA_3.d269771d95581ece49ff.png",
+    "static/media/Jornada_5-2.png": "/portfolio/static/media/Jornada_5-2.b21b229c9b42e7377e0b.png",
+    "static/media/Apresentação do Projeto.jpg": "/portfolio/static/media/Apresentação do Projeto.3767f487fb2280be3157.jpg",
+    "static/media/Projeto_1.png": "/portfolio/static/media/Projeto_1.ab5897a2319ba63208f9.png",
     "index.html": "/portfolio/index.html",
-    "main.fd92808f.css.map": "/portfolio/static/css/main.fd92808f.css.map",
-    "main.e1ad27da.js.map": "/portfolio/static/js/main.e1ad27da.js.map",
+    "main.9ef9e3c8.css.map": "/portfolio/static/css/main.9ef9e3c8.css.map",
+    "main.9fe09317.js.map": "/portfolio/static/js/main.9fe09317.js.map",
     "453.9c226ca7.chunk.js.map": "/portfolio/static/js/453.9c226ca7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd92808f.css",
-    "static/js/main.e1ad27da.js"
+    "static/css/main.9ef9e3c8.css",
+    "static/js/main.9fe09317.js"
   ]
 }

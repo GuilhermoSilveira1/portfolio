@@ -1,0 +1,28 @@
+.ja2-title {
+  font-size: 40px;
+}
+
+.ja2-text {
+  font-size: 20px;
+}
+
+.ja2-image {
+  display: inline-block;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.ja2-image img {
+  margin-top: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  border: 2px solid #33ff33; /* Borda verde para combinar com o estilo terminal */
+}
+
+#ja2-img1 {
+  margin-left: 20px;
+}

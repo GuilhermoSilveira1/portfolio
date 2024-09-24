@@ -1,10 +1,11 @@
 import React from "react";
 import Terminal from "../../Terminal";
 import img1 from "./../../../img/JA_2.png"
+import "./styles/Jornada2.css"
 
 const Jornada2 = () => {
 
-    const title = ["Automatização de Máquina de Suco"];
+    const title = ["Automação de Máquina de Suco"];
 
     const text1 = [
         'No segundo semestre de 2022, tivemos a oportunidade de trabalhar em um projeto desafiador em parceria com a Bosch, que envolvia a automatização de suas máquinas de suco. O objetivo inicial era realizar um piloto em uma das máquinas da empresa para avaliar a viabilidade de implementar a solução em outras unidades.'
@@ -30,8 +31,8 @@ const Jornada2 = () => {
                 <Terminal lines={text3} />
             </div>
 
-            <div>
-                <img alt="Imagem do projeto no 3D" src={img1} />
+            <div className="ja2-image">
+                <img alt="Imagem do projeto no 3D" src={img1} id="ja2-img1" />
             </div>
         </>
     );

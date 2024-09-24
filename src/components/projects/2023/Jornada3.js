@@ -3,9 +3,14 @@ import Terminal from "../../Terminal";
 import img1 from "./../../../img/JA_3.png"
 import img2 from "./../../../img/JA_3-2.png"
 import img3 from "./../../../img/JA_3-3.png"
+import "./styles/Jornada3.css"
 
 
 const Jornada3 = () => {
+
+    const year = [
+        "Voltando para 2023..."
+    ]
 
     const title = ["Braço Colaborativo"];
 
@@ -27,6 +32,11 @@ const Jornada3 = () => {
 
     return (
         <>
+
+            <div className="year-2023">
+                <Terminal lines={year} />
+            </div>
+
             <div className="ja3-title">
                 <Terminal lines={title} />
             </div>
@@ -38,9 +48,11 @@ const Jornada3 = () => {
                 <Terminal lines={text4} />
             </div>
 
-            <img alt="Imagem do projeto 3D" src={img1} />
-            <img alt="Imagem do projeto 3D" src={img2} />
-            <img alt="Imagem do projeto 3D" src={img3} />
+            <div className="ja3-image">
+                <img alt="Imagem do projeto 3D" src={img1} id="ja3-img1" />
+                <img alt="Imagem do projeto 3D" src={img2} id="ja3-img2" />
+                <img alt="Imagem do projeto 3D" src={img3} id="ja3-img3" />
+            </div>
         </>
     );
 };

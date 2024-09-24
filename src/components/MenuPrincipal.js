@@ -5,6 +5,8 @@ import Ano2022 from "./projects/2022/2022"; // Importação do componente espec�
 import Ano2023 from "./projects/2023/2023"; // Importação do componente específico de 2019
 import Ano2024 from "./projects/2024/2024"; // Importação do componente específico de 2019
 import "./Terminal.css";
+import "./MenuPrincipal.css"
+import fotoGui from "./../img/Foto Guilhermo.jpg"
 
 const MenuPrincipal = () => {
     const [inputAno, setInputAno] = useState(""); // Valor digitado no input
@@ -23,7 +25,6 @@ const MenuPrincipal = () => {
     };
 
     const asciiPortfolio = [
-
         '________  ________  ________  _________  ________ ________  ___       ___  ________     ',
         '|\\   __  \\|\\   __  \\|\\   __  \\|\\___   ___\\\\  _____\\\\   __  \\|\\  \\     |\\  \\|\\   __  \\    ',
         '\\ \\  \\|\\  \\ \\  \\|\\  \\ \\  \\|\\  \\|___ \\  \\_\\ \\  \\__/\\ \\  \\|\\  \\ \\  \\    \\ \\  \\ \\  \\|\\  \\   ',
@@ -31,10 +32,10 @@ const MenuPrincipal = () => {
         '  \\ \\  \\___|\\ \\  \\\\\\  \\ \\  \\\\  \\|   \\ \\  \\ \\ \\  \\_| \\ \\  \\\\\\  \\ \\  \\____\\ \\  \\ \\  \\\\\\  \\ ',
         '   \\ \\__\\    \\ \\_______\\ \\__\\\\ _\\    \\ \\__\\ \\ \\__\\   \\ \\_______\\ \\_______\\ \\__\\ \\_______\\ ',
         '    \\|__|     \\|_______|\\|__|\\|__|    \\|__|  \\|__|    \\|_______|\\|_______|\\|__|\\|_______| '
+    ]
 
-
-
-
+    const sub_title = [
+        "Por Guilhermo Silveira"
     ]
 
     const text = [
@@ -47,21 +48,20 @@ const MenuPrincipal = () => {
 
     return (
         <>
-            <div className="menu-title">
+            <div className="main-title">
                 <Terminal lines={asciiPortfolio} timeToRender={0} />
+            </div>
+
+            <div className="sub-menu">
+                <Terminal lines={sub_title} />
+                <img src={fotoGui} alt="Foto de Guilhermo" />
             </div>
 
             <div className="menu-text">
                 <Terminal lines={text} />
             </div>
 
-            {/* Renderiza o componente do ano correspondente */}
-            {anoSelecionado === "2019" && <Ano2019 />}
-            {anoSelecionado === "2022" && <Ano2022 />}
-            {anoSelecionado === "2023" && <Ano2023 />}
-            {anoSelecionado === "2024" && <Ano2024 />}
-
-            <div>
+            <div className="input">
                 <form onSubmit={handleSubmit}>
                     <input
                         ref={inputRef}
@@ -73,6 +73,11 @@ const MenuPrincipal = () => {
                 </form>
             </div>
 
+            {/* Renderiza o componente do ano correspondente */}
+            {anoSelecionado === "2019" && <Ano2019 />}
+            {anoSelecionado === "2022" && <Ano2022 />}
+            {anoSelecionado === "2023" && <Ano2023 />}
+            {anoSelecionado === "2024" && <Ano2024 />}
         </>
     );
 };

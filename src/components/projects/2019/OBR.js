@@ -1,16 +1,16 @@
 import React from "react";
 import Terminal from "../../Terminal";
-import './OBR.css'
+import './styles/OBR.css'
 import img1 from "./../../../img/medalhaOBR.jpg"
 import img2 from "./../../../img/OBR.jpg"
 
 const OBR = () => {
 
-    const title = [
+    const year = [
         'Voltando para 2019...',
     ]
 
-    const lineOBR = [
+    const OBRtitle = [
         'Olimpíada Brasileira de Robótica',
     ]
 
@@ -26,9 +26,12 @@ const OBR = () => {
 
     return (
         <>
-            <div className="obr-intro">
-                <Terminal lines={title} />
-                <Terminal lines={lineOBR} />
+            <div className="year-title">
+                <Terminal lines={year} />
+            </div>
+
+            <div className="OBR-title">
+                <Terminal lines={OBRtitle} />
             </div>
 
             <div className="obr-text">
@@ -36,9 +39,9 @@ const OBR = () => {
                 <Terminal lines={text2} letterSpeed={50} />
             </div>
 
-            <div className="image-container">
-                <img src={img1} />
-                <img alt="Foto na OBR estadual" src={img2} />
+            <div className="OBR-image">
+                <img alt="Foto da medalha na OBR regional" src={img1} id="OBR-img1" />
+                <img alt="Foto na OBR estadual" src={img2} id="OBR-img2" />
             </div>
         </>
     )

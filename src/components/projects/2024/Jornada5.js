@@ -4,8 +4,14 @@ import img1 from "./../../../img/Jornada_5.jpg"
 import img2 from "./../../../img/Jornada_5-1.jpg"
 import img3 from "./../../../img/Jornada_5-2.png"
 import img4 from "./../../../img/Jornada_5-3.png"
+import "./styles/Jornada5.css"
 
 const Jornada5 = () => {
+
+    const year = [
+        "Agora em 2024..."
+    ]
+
     const title = [
         "Concepção de um Site de Recrutamento e Seleção"
     ]
@@ -32,6 +38,10 @@ const Jornada5 = () => {
 
     return (
         <>
+            <div className="year-2024">
+                <Terminal lines={year} />
+            </div>
+
             <div className="ja5-title">
                 <Terminal lines={title} />
             </div>
@@ -44,11 +54,11 @@ const Jornada5 = () => {
                 <Terminal lines={text5} />
             </div>
 
-            <div>
-                <img alt="Apresentação do Projeto" src={img1} />
-                <img alt="Apresentação do Projeto" src={img2} />
-                <img alt="Tela do Projeto" src={img3} />
-                <img alt="Tela do Projeto" src={img4} />
+            <div className="ja5-image">
+                <img alt="Apresentação do Projeto" src={img1} id="ja5-img1" />
+                <img alt="Apresentação do Projeto" src={img2} id="ja5-img2" />
+                <img alt="Tela do Projeto" src={img3} id="ja5-img3" />
+                <img alt="Tela do Projeto" src={img4} id="ja5-img4" />
             </div>
         </>
     )

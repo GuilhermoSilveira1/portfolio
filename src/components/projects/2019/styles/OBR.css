@@ -1,22 +1,45 @@
 /* OBR.css */
 
-.obr-intro {
+.year-title {
   margin-bottom: 20px;
+  font-size: 20px;
 }
 
-.obr-title h1 {
+.OBR-title {
   font-size: 40px; /* Tamanho do título */
   color: #00ff00; /* Cor verde para o título, como no terminal */
   font-family: "Courier New", Courier, monospace; /* Fonte de terminal */
 }
 
 .obr-text {
+  font-size: 20px;
   margin-top: 20px;
 }
 
-.image-container img {
+.OBR-image {
+  display: inline-block;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.OBR-image img {
   margin-top: 20px;
-  max-width: 100%;
+  max-width: 50%;
+  max-height: 50%;
   height: auto;
   border: 2px solid #33ff33; /* Borda verde para combinar com o estilo terminal */
+}
+
+#OBR-img1 {
+  height: 300px;
+  width: 150px;
+}
+
+#OBR-img2 {
+  height: 300px;
+  width: 350px;
+  margin-left: 20px;
 }

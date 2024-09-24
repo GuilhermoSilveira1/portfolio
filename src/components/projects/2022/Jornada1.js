@@ -3,8 +3,10 @@ import Terminal from "../../Terminal";
 import im1 from "./../../../img/Apresentação do Projeto.jpg"
 import im2 from "./../../../img/JA_1.png"
 import im3 from "./../../../img/JA_1-2.png"
+import "./styles/Jornada1.css"
 
 const Jornada1 = () => {
+
     const title = [
         "Mesa Rotativa"
     ]
@@ -27,16 +29,16 @@ const Jornada1 = () => {
                 <Terminal lines={title} letterSpeed={10} />
             </div>
 
-            <div className="text-jornada">
+            <div className="text-jornada1">
                 <Terminal lines={text1} />
                 <Terminal lines={text2} />
                 <Terminal lines={text3} />
             </div>
 
-            <div>
-                <img alt="Apresentação do projeto" src={im1} />
-                <img alt="Projeto no 3D" src={im2} />
-                <img alt="Projeto no 3D" src={im3} />
+            <div className="jornada1-image">
+                <img alt="Apresentação do projeto" src={im1} id="jornada1-img1" />
+                <img alt="Projeto no 3D" src={im2} id="jornada1-img2" />
+                <img alt="Projeto no 3D" src={im3} id="jornada1-img3" />
             </div>
         </>
     )

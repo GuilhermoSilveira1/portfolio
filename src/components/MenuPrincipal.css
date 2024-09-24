@@ -1,0 +1,21 @@
+.input {
+  margin-bottom: 20px;
+}
+
+.main-title {
+  margin-bottom: 100px;
+}
+
+.sub-menu {
+  display: flex; /* Alinha os filhos em uma linha (horizontal) */
+  align-items: center; /* Centraliza verticalmente a imagem e o texto */
+}
+
+.sub-menu img {
+  height: 150px;
+  margin-left: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.menu-text {
+  font-size: 20px;
+}

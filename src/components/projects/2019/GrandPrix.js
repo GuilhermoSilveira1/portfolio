@@ -3,7 +3,7 @@ import Terminal from "../../Terminal"
 import img1 from "./../../../img/Hackaton.jpg"
 import img2 from "./../../../img/Hackaton_1.jpg"
 import img3 from "./../../../img/Hackaton_2.jpg"
-
+import "./styles/GrandPrix.css"
 
 
 const GrandPrix = () => {
@@ -29,7 +29,7 @@ const GrandPrix = () => {
 
     return (
         <>
-            <div className="grand-intro">
+            <div className="grand-title">
                 <Terminal lines={lineGrandPrix} />
             </div>
 
@@ -40,10 +40,10 @@ const GrandPrix = () => {
                 <Terminal lines={text4} letterSpeed={50} />
             </div>
 
-            <div className="grand-image">
-                <img alt="Hackaton do Senai" src={img1} />
-                <img alt="Hackaton do Senai" src={img2} />
-                <img alt="Hackaton do Senai" src={img3} />
+            <div className="Grand-image">
+                <img alt="Hackaton do Senai" src={img1} id="Grand-img1" />
+                <img alt="Hackaton do Senai" src={img2} id="Grand-img2" />
+                <img alt="Hackaton do Senai" src={img3} id="Grand-img3" />
             </div>
 
         </>

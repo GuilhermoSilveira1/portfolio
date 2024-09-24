@@ -1,0 +1,32 @@
+.year-2022 {
+  font-size: 20px;
+}
+
+.title-jornada1 {
+  font-size: 40px;
+}
+
+.text-jornada1 {
+  font-size: 20px;
+}
+
+.jornada1-image {
+  display: inline-block;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.jornada1-image img {
+  margin-top: 20px;
+  max-width: 50%;
+  max-height: 50%;
+  height: auto;
+  border: 2px solid #33ff33; /* Borda verde para combinar com o estilo terminal */
+}
+
+#jornada1-img2 {
+  margin-left: 20px;
+}

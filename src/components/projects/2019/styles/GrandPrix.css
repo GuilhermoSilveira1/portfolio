@@ -1,10 +1,4 @@
-/* grand.css */
-
-.grand-intro {
-  margin-bottom: 20px;
-}
-
-.grand-title h1 {
+.grand-title {
   font-size: 2em; /* Tamanho do título */
   color: #00ff00; /* Cor verde para o título, como no terminal */
   font-family: "Courier New", Courier, monospace; /* Fonte de terminal */
@@ -12,11 +6,34 @@
 
 .grand-text {
   margin-top: 20px;
+  font-size: 20px;
 }
 
-.image-container img {
+.Grand-image {
+  display: inline-block;
+  text-align: center;
+}
+
+.Grand-image img {
   margin-top: 20px;
   max-width: 100%;
+  max-height: 100%;
   height: auto;
   border: 2px solid #33ff33; /* Borda verde para combinar com o estilo terminal */
+  margin-bottom: 20px;
+}
+
+#Grand-img1 {
+  height: 350px;
+}
+
+#Grand-img2 {
+  height: 350px;
+  width: 500px;
+  margin-left: 50px;
+}
+
+#Grand-img3 {
+  height: 350px;
+  text-align: center;
 }

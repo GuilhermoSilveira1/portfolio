@@ -4,7 +4,7 @@ import "./styles/Projeto2.css"
 
 const Projeto2 = () => {
 
-    const title = ["Sistema de Supervisão de Supermercado"];
+    const title = ["Portfólio"];
 
     const text1 = [
         'Este portfólio é o meu projeto mais recente!'

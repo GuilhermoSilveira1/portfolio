@@ -18,6 +18,4 @@ Here’s a list of the technologies and tools that helped bring this project to 
 
 Here’s a sneak peek of what the portfolio looks like in action:
 
-![Portfolio Preview](#)
-
-[Insert a screenshot or gif of the running project here]
+![Portfolio Preview](https://github.com/GuilhermoSilveira1/portfolio/blob/main/Portfolio.png)
